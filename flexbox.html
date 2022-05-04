@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>practice FlexBox</title>
+        <style>
+            @media(min-width:600px){
+                body{
+                    background-color: chartreuse;
+                }
+            }
+            @media(max-width:599px){
+                body{
+                    background-color: blue;
+                }
+            }
+            #textbox {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            #textbox > div {
+                background-color: greenyellow;
+                width: 200px;
+                padding: 20px;
+                margin: 10px;
+                font-size: 20px;
+            }
+           
+        </style>
+    </head>
+    <body>
+        <div id="textbox">
+            <div>1.  This is Flex Box Practice for my Website</div>
+            <div>2.  This is Flex Box Practice for my Website</div>
+            <div>3.  This is Flex Box Practice for my Website</div>
+            <div>4.  This is Flex Box Practice for my Website</div>
+            <div>5.  This is Flex Box Practice for my Website</div>
+            <div>6.  This is Flex Box Practice for my Website</div>
+            <div>7.  This is Flex Box Practice for my Website</div>
+            <div>8.  This is Flex Box Practice for my Website</div>
+            <div>9.  This is Flex Box Practice for my Website</div>
+            <div>10. This is Flex Box Practice for my Website</div>
+            <div>11. This is Flex Box Practice for my Website</div>
+            <div>12. This is Flex Box Practice for my Website</div>
+        </div>
+    </body>
+</html>
